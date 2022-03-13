@@ -1,0 +1,13 @@
+/* Espacio p'al css de la segunda vista xD */
+
+.nodisplay {
+  display: none;
+
+}
+.display-on{
+display: flex;
+}
+
+.display-off{
+display: none;
+}
