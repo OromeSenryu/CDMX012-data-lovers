@@ -42,8 +42,8 @@ Here's our result:
 
 ## Comments and learning experience
 
-Do we feel proud about our little child? Yes. 
-Do we plan to develop all the features in the future? Of course!!
+* Do we feel proud about our little child? Yes. 
+* Do we plan to develop all the features in the future? Of course!!
 
 We had a great time learning how to work with API consumption for the first time, even doing it with vanilla JavaScript. Our plan for the future is to retake this project, take it as a challenge for our (for now recently aquired) React.js knowledge, and make it work with an official League of Legends API for showing the newest version of champion data, in real time. 
 
