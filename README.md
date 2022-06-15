@@ -50,6 +50,8 @@ We had a great time learning how to work with API consumption for the first time
 Choose Your Champion 2.0, comming soon!
 
 
-
+### OromeSenryu
 [<img src="https://img.shields.io/github/followers/OromeSenryu?label=follow&style=social" height="22" title="Follow me" />](https://github.com/OromeSenryu)
+
+### PolarisSchulz
 [<img src="https://img.shields.io/github/followers/PolarisSchulz?label=follow&style=social" height="22" title="Follow me" />](https://github.com/PolarisSchulz)
