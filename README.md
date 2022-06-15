@@ -31,4 +31,21 @@ Here's our result:
 
 ## Final Version
 
+![Main page final 1](https://i.imgur.com/pFryzI8.png)
+![Main page final 2](https://i.imgur.com/08OQE81.png)
+![Main page final 3](https://i.imgur.com/VN5wSgw.png)
+![Champion details final](https://i.imgur.com/S9TiaPH.png)
 
+## Comments and learning experience
+
+Do we feel proud about our little child? Yes. 
+Do we plan to develop all the features in the future? Of course!!
+
+We had a great time learning how to work with API consumption for the first time, even doing it with vanilla JavaScript. Our plan for the future is to retake this project, take it as a challenge for our (for now recently aquired) React.js knowledge, and make it work with an official League of Legends API for showing the newest version of champion data, in real time. 
+
+Choose Your Champion 2.0, comming soon!
+
+
+
+[<img src="https://img.shields.io/github/followers/OromeSenryu?label=follow&style=social" height="22" title="Follow me" />](https://github.com/OromeSenryu)
+[<img src="https://img.shields.io/github/followers/PolarisSchulz?label=follow&style=social" height="22" title="Follow me" />](https://github.com/PolarisSchulz)
