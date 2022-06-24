@@ -16,7 +16,7 @@ describe("filterFunction", () => {
 
   it("Show filter by champion class", () => {
     const championData = [{ tags: "Fighter" }, { tags: "Tank" }];
-    expect(filterFunction(championData, "Tank")).not.toEqual([{ tags: "Tank" }]);
+    expect(filterFunction(championData, "Tank")).toEqual([{ tags: "Tank" }]);
   });
 });
 // // // // // // // // // // // // // // // // // // // // //
@@ -43,6 +43,7 @@ describe("midDifficultyFunction", () => {
   it("is a function", () => {
     expect(typeof midDifficultyFunction).toBe("function");
   });
+<<<<<<< HEAD
 
   it("Show champions by moderate difficulty", () => {
     const championData = [
@@ -94,15 +95,87 @@ describe("highToLowAttackFunction", () => {
       { name: "Ahri", info: { attack: 6 } },
       { name: "Alistar", info: { attack: 5 } },
       { name: "Aatrox", info: { attack: 3 } },
+=======
+
+  it("Show champions by moderate difficulty", () => {
+    const championData = [
+      { info: { difficulty: 3 } },
+      { info: { difficulty: 6 } },
+      { info: { difficulty: 5 } },
+      { info: { difficulty: 4 } },
+    ];
+    expect(midDifficultyFunction(championData)).toStrictEqual([
+      { info: { difficulty: 6 } },
+      { info: { difficulty: 5 } },
+      { info: { difficulty: 4 } },
+    ]);
+  });
+});
+// // // // // // // // // // // // // // // // // // // // // //
+describe("highDifficultyFunction", () => {
+  it("is a function", () => {
+    expect(typeof highDifficultyFunction).toBe("function");
+  });
+
+  it("Show champions by high difficulty", () => {
+    const championData = [
+      { info: { difficulty: 3 } },
+      { info: { difficulty: 6 } },
+      { info: { difficulty: 7 } },
+      { info: { difficulty: 5 } },
+    ];
+    expect(highDifficultyFunction(championData)).toStrictEqual([
+      { info: { difficulty: 7 } },
+>>>>>>> 0d3ca9ea68eca55e6d455529aa10bc835d921b5c
+    ]);
+  });
+});
+// // // // // // // // // // // // // // // // // // //
+describe("highToLowAttackFunction", () => {
+  it("is a function", () => {
+    expect(typeof highToLowAttackFunction).toBe("function");
+  });
+
+<<<<<<< HEAD
+=======
+  it("Show champions by high to low attack", () => {
+    const championData = [
+      { name: "Aatrox", info: { attack: 3 } },
+      { name: "Ahri", info: { attack: 6 } },
+      { name: "Akali", info: { attack: 7 } },
+      { name: "Alistar", info: { attack: 5 } },
+    ];
+    expect(highToLowAttackFunction(championData)).toStrictEqual([
+      { name: "Akali", info: { attack: 7 } },
+      { name: "Ahri", info: { attack: 6 } },
+      { name: "Alistar", info: { attack: 5 } },
+      { name: "Aatrox", info: { attack: 3 } },
     ]);
   });
 });
 
+>>>>>>> 0d3ca9ea68eca55e6d455529aa10bc835d921b5c
 // // // // // // // // // // // // // // // // // // //
 describe("lowToHighAttackFunction", () => {
   it("is a function", () => {
     expect(typeof lowToHighAttackFunction).toBe("function");
   });
+<<<<<<< HEAD
+
+  it("Show champions by low to high attack", () => {
+    const championData = [
+      { name: "Aatrox", info: { attack: 3 } },
+      { name: "Ahri", info: { attack: 6 } },
+      { name: "Akali", info: { attack: 7 } },
+      { name: "Alistar", info: { attack: 5 } },
+    ];
+    expect(lowToHighAttackFunction(championData)).toStrictEqual([
+      { name: "Aatrox", info: { attack: 3 } },
+      { name: "Alistar", info: { attack: 5 } },
+      { name: "Ahri", info: { attack: 6 } },
+      { name: "Akali", info: { attack: 7 } },
+    ]);
+=======
 
   it("Show champions by low to high attack", () => {
     const championData = [
@@ -138,6 +211,48 @@ describe("highToLowDefenseFunction", () => {
       { name: "Ahri", info: { defense: 6 } },
       { name: "Alistar", info: { defense: 5 } },
       { name: "Aatrox", info: { defense: 3 } },
+    ]);
+  });
+});
+
+// // // // // // // // // // // // // // // // //
+describe("lowToHighDefenseFunction", () => {
+  it("is a function", () => {
+    expect(typeof lowToHighDefenseFunction).toBe("function");
+>>>>>>> 0d3ca9ea68eca55e6d455529aa10bc835d921b5c
+  });
+});
+
+<<<<<<< HEAD
+// // // // // // // // // // // // // // // // //
+describe("highToLowDefenseFunction", () => {
+  it("is a function", () => {
+    expect(typeof highToLowDefenseFunction).toBe("function");
+  });
+
+  it("Show champions by high to low defense function", () => {
+=======
+  it("Show champions by low to high defense function", () => {
+>>>>>>> 0d3ca9ea68eca55e6d455529aa10bc835d921b5c
+    const championData = [
+      { name: "Aatrox", info: { defense: 3 } },
+      { name: "Ahri", info: { defense: 6 } },
+      { name: "Akali", info: { defense: 7 } },
+      { name: "Alistar", info: { defense: 5 } },
+    ];
+<<<<<<< HEAD
+    expect(highToLowDefenseFunction(championData)).toStrictEqual([
+      { name: "Akali", info: { defense: 7 } },
+      { name: "Ahri", info: { defense: 6 } },
+      { name: "Alistar", info: { defense: 5 } },
+      { name: "Aatrox", info: { defense: 3 } },
+=======
+    expect(lowToHighDefenseFunction(championData)).toStrictEqual([
+      { name: "Aatrox", info: { defense: 3 } },
+      { name: "Alistar", info: { defense: 5 } },
+      { name: "Ahri", info: { defense: 6 } },
+      { name: "Akali", info: { defense: 7 } },
+>>>>>>> 0d3ca9ea68eca55e6d455529aa10bc835d921b5c
     ]);
   });
 });

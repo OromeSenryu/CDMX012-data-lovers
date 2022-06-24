@@ -1,11 +1,8 @@
-
 # Data Lovers Project - Choose Your Champion
 
 ## About the project
 
 Choose Your Champion is designed as a web page for showing League of Legends' champion database, as well as specific information like role, abilities, type, and their statistics about attack and defense matters.
-
-***
 
 ## Targets and User Experience
 
