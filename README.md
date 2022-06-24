@@ -38,6 +38,8 @@ Here's our result:
 ![Main page final 3](https://i.imgur.com/VN5wSgw.png)
 ![Champion details final](https://i.imgur.com/S9TiaPH.png)
 
+<a href="https://oromesenryu.github.io/CDMX012-data-lovers/" target="_blank">Link to deployment on GitHub Pages</a>
+
 ## Comments and learning experience
 
 * Do we feel proud about our little child? Yes. 
