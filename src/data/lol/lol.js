@@ -8,7 +8,7 @@ export default {
       id: "Aatrox",
       key: "266",
       name: "Aatrox",
-      title: "the Darkin Blade",
+      title: "The Darkin Blade",
       img:
         "https://www.masterypoints.com/assets/img/lol/champion_icons/Aatrox.png",
       splash:
@@ -60,7 +60,7 @@ export default {
       id: "Ahri",
       key: "103",
       name: "Ahri",
-      title: "the Nine-Tailed Fox",
+      title: "The Nine-Tailed Fox",
       img:
         "https://www.masterypoints.com/assets/img/lol/champion_icons/Ahri.png",
       splash:
@@ -112,7 +112,7 @@ export default {
       id: "Akali",
       key: "84",
       name: "Akali",
-      title: "the Fist of Shadow",
+      title: "The Fist of Shadow",
       img:
         "https://www.masterypoints.com/assets/img/lol/champion_icons/Akali.png",
       splash:
@@ -164,7 +164,7 @@ export default {
       id: "Alistar",
       key: "12",
       name: "Alistar",
-      title: "the Minotaur",
+      title: "The Minotaur",
       img:
         "https://www.masterypoints.com/assets/img/lol/champion_icons/Alistar.png",
       splash:
@@ -216,7 +216,7 @@ export default {
       id: "Amumu",
       key: "32",
       name: "Amumu",
-      title: "the Sad Mummy",
+      title: "The Sad Mummy",
       img:
         "https://www.masterypoints.com/assets/img/lol/champion_icons/Amumu.png",
       splash:
@@ -268,7 +268,7 @@ export default {
       id: "Anivia",
       key: "34",
       name: "Anivia",
-      title: "the Cryophoenix",
+      title: "The Cryophoenix",
       img:
         "https://www.masterypoints.com/assets/img/lol/champion_icons/Anivia.png",
       splash:
